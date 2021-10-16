@@ -32,7 +32,8 @@ function About(props) {
                 </div>
                 <div className="col-sm-6">
                     <Card>
-                        <CardHeader className="bg-primary text-white"><h3>Facts At a Glance</h3></CardHeader>
+                            <CardHeader className="bg-primary text-white"><h3>Facts At a Glance</h3>
+                            </CardHeader>
                         <CardBody>
                             <dl className="row">
                                 <dt className="col-6">Founded</dt>
@@ -81,7 +82,7 @@ function RenderPartner({partner}) {
                     <React.Fragment> 
                         <Media list src={partner.image} alt={partner.name} width="150"></Media>
                         <Media body className="ml-5 mb-4">
-                            <Media heading>{partner.name}</Media>{partner.desciption}
+                            <Media heading>{partner.name}</Media>{partner.description}
                         </Media>
                     </React.Fragment>
                 ); 
